@@ -20,9 +20,17 @@
         momentos difíceis, você nunca se esqueça do quanto é capaz. Você merece tudo de melhor!</p>
         <img src="https://source.unsplash.com/400x300/?birthday,celebration" alt="Imagem de Aniversário">
         <p>Com carinho,<br> Vini</p>
-        <!-- <audio controls autoplay loop>
+        <audio id="myAudio" autoplay loop>
             <source src="Ed_Sheeran_Photograph.mp3" type="audio/mpeg">
-          </audio> -->
+          </audio>
+
+          <script>
+            document.addEventListener("DOMContentLoaded", function() {
+                var audio = document.getElementById("myAudio");
+                // Ajuste o volume para o valor desejado (0 a 1)
+                audio.volume = 0.5; // Por exemplo, 50% do volume
+            });
+        </script>
     </div>
 </body>
 </html>
